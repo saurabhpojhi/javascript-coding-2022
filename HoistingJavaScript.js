@@ -12,3 +12,23 @@
 //  var name = "saurabh";
 // console.log(name);
 
+var name;
+console.log(name); //undefined
+name ="saurabh";
+console.log(name);  //Saurabh
+
+//   Function Hoisting  //
+
+// function hoisting  allows to call function before it.
+
+// foo();
+// function foo(){
+//     console.log('foo');
+// }
+
+foo();
+var foo=function(){  //TypeError: foo is not a function
+
+}
+
+// similor for constant
