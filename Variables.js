@@ -30,3 +30,34 @@ const book=20;
 let total = pen+book;
 
 console.log(total);
+
+// The let keyword was introduced in ES6 (2015).
+
+// Variables defined with let cannot be Redeclared.
+
+// Variables defined with let must be Declared before use.
+
+// Variables defined with let have Block Scope.
+
+//let x = "ram";
+//let x=0;         // SyntaxError: 'x' has already been declared
+
+
+//Note that variables may hold values that have different data types:
+
+// String ex
+  let myVariable ="Ram";
+  console.log(myVariable);
+  //Number 
+  let Number =10;
+  console.log(Number);
+// Boolean
+let Boolean = true;
+console.log(Boolean);
+//Array
+ let arraytype = [1,'ram','shyam',10];
+ console.log(arraytype);
+
+ //Object
+ let object ='h1'
+ console.log(object);
