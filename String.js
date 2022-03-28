@@ -14,7 +14,7 @@ console.log(myString1.trim());
 // I love coding
 console.log(myString1.trim().length);
 
-// # Split   // convert a string to an array
+// #3 Split   // convert a string to an array
 
 const myString2 = "I love coding";
 const arr = myString2.split("");
@@ -26,4 +26,16 @@ console.log(arr);
 //     'g'
 //   ]
 
-// #
+// #4 To Lower Case   // Convert the String to lowercases letters
+
+const myString3 = "I LOVE CODING";
+console.log(myString3.toLowerCase());  
+
+// i love coding
+
+//#5 To Upper case   // convert the string to uppercase letters
+
+const myString4 ="i love coding";
+console.log(myString4.toUpperCase());
+// I LOVE CODING
+
