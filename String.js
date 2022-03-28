@@ -5,7 +5,7 @@
  const myString = "I love coding"
  console.log(myString.length);
 
- // #2  Trim     // Remove whiteSpaces at the beginnig and at the end
+ // #2 Trim     // Remove whiteSpaces at the beginnig and at the end
 
  const myString1 = "  I love coding  "
  console.log(myString1.length)
@@ -38,4 +38,15 @@ console.log(myString3.toLowerCase());
 const myString4 ="i love coding";
 console.log(myString4.toUpperCase());
 // I LOVE CODING
+
+// #6 Replace      // Returns a new string with a text replaced by different text
+
+const myString5 ="I love coding";
+const replacedString = myString5.replace('coding', 'programming');
+console.log(replacedString);
+
+// I LOVE CODING
+// I love programming
+
+// #7 Concat     // Concat string arguents to a particular string
 
