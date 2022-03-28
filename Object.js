@@ -13,6 +13,6 @@ person.name='saurabh';
 
  // you can also use  'New'  with user defined constructor function 
 
- function person (name){
+ function person(name){
      this.name=name;
  }
