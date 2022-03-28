@@ -56,3 +56,6 @@ const concatedString = myString6.concat('',newString1);
 console.log(concatedString);
 
 //  I love coding& design
+
+// #8 Starts with   // Returns true if a string with a particular string
+
