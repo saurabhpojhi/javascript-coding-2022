@@ -50,3 +50,9 @@ console.log(replacedString);
 
 // #7 Concat     // Concat string arguents to a particular string
 
+const myString6 = " I love coding";
+const newString1 = "& design";
+const concatedString = myString6.concat('',newString1);
+console.log(concatedString);
+
+//  I love coding& design
