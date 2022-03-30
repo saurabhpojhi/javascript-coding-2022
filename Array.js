@@ -34,10 +34,14 @@ var languages = ["javascript", "python", "java", "c++", "c"];
 var popped = languages.pop();
 console.log(popped);
 console.log(languages);
+ 
+   // #3 JavaScript Array push()       // The push() method adds zero or more elements to the end of the array.
+
+     let city = ["Delhi","Chennai","Mumbai"];
+     city.push("Bangalore");
+     console.log(city);
 
 
-
-   // #3 JavaScript Array push()
 
     // #4 JavaScript Array shift()
 
