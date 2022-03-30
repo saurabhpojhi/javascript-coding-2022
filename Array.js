@@ -53,5 +53,13 @@ console.log(languages);
     let removedFirst = programmingLanguges.shift();
     console.log(removedFirst);
     console.log(programmingLanguges);
- 
-    // #5 JavaScript Array unshift()
+
+    // #5 JavaScript Array unshift()       
+
+    // The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+    var programmingLanguges2 = ["javascript", "python", "java", "c++", "c"];
+
+    let addedFirst = programmingLanguges2.unshift("R");
+    console.log(addedFirst);
+    console.log(programmingLanguges2);
+    
