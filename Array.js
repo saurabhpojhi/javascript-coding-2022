@@ -63,3 +63,17 @@ let addedFirst = programmingLanguges2.unshift("R");
 console.log(addedFirst);
 console.log(programmingLanguges2);
 
+// To do 31 /3/2022 list
+
+// #5 JavaScript Array find()
+
+// #6 Javascript Array filter()
+// #7 JavaScript Array findIndex()
+// #8 Javascript Array forEach()
+// #9 Javascript Array isArray()
+// #10 JavaScript Array length()
+// #11 JavaScript Array map()
+// #12 Javascript Array reduce()
+// #13 JavaScript Array reverse()
+// #14 JavaScript Array slice()
+// #15  Javascript Array toString()
