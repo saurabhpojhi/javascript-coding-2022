@@ -26,4 +26,5 @@
    // #5 JavaScript Array push()
 
     // #6 JavaScript Array shift()
-    
+
+    // #7 JavaScript Array unshift()
