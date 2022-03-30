@@ -18,4 +18,9 @@
    var newArr2 =languages1.concat("Erlang", languages2);   // concatenating a value and array
    console.log(newArr2);
 
-   // # Concatenating nested arrays 
+   // #3 Concatenating nested arrays 
+
+
+   // #4 JavaScript Array pop()
+
+   // 
