@@ -37,8 +37,8 @@ console.log(languages);
  
    // #3 JavaScript Array push()       // The push() method adds zero or more elements to the end of the array.
 
-     let city = ["Delhi","Chennai","Mumbai"];     // The syntax of the push() method is:
-     city.push("Bangalore");                   // The syntax of the push() method is:
+     let city = ["Delhi","Chennai","Mumbai"];     
+     city.push("Bangalore");                   
      console.log(city);
 
      // // Using push() method
@@ -46,6 +46,12 @@ console.log(languages);
      languagesProgramming.push("cobol");
      console.log(languagesProgramming);
 
-    // #4 JavaScript Array shift()
+    // #4 JavaScript Array shift()          //  The shift() method removes the first element from an array and returns that element.
 
+    var programmingLanguges = ["javascript", "python", "java", "c++", "c"];
+
+    let removedFirst = programmingLanguges.shift();
+    console.log(removedFirst);
+    console.log(programmingLanguges);
+ 
     // #5 JavaScript Array unshift()
