@@ -6,7 +6,7 @@
    let joinedArray = primeNumber.concat(evenNumber);
    console.log(joinedArray);
    
-   // #2 Using concat() method                    //
+   // # Using concat() method                    //
 
    var languages1 = ["javascript", "python","java"];
    var languages2 = ["c","C++"];
@@ -18,13 +18,13 @@
    var newArr2 =languages1.concat("Erlang", languages2);   // concatenating a value and array
    console.log(newArr2);
 
-   // #3 Concatenating nested arrays 
+   // # Concatenating nested arrays 
 
 
-   // #4 JavaScript Array pop()
+   // #2 JavaScript Array pop()
 
-   // #5 JavaScript Array push()
+   // #3 JavaScript Array push()
 
-    // #6 JavaScript Array shift()
+    // #4 JavaScript Array shift()
 
-    // #7 JavaScript Array unshift()
+    // #5 JavaScript Array unshift()
