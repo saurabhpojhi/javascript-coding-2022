@@ -34,32 +34,32 @@ var languages = ["javascript", "python", "java", "c++", "c"];
 var popped = languages.pop();
 console.log(popped);
 console.log(languages);
- 
-   // #3 JavaScript Array push()       // The push() method adds zero or more elements to the end of the array.
 
-     let city = ["Delhi","Chennai","Mumbai"];     
-     city.push("Bangalore");                   
-     console.log(city);
+// #3 JavaScript Array push()       // The push() method adds zero or more elements to the end of the array.
 
-     // // Using push() method
-     var languagesProgramming = ["javascript", "python", "java", "c++", "c"];
-     languagesProgramming.push("cobol");
-     console.log(languagesProgramming);
+let city = ["Delhi", "Chennai", "Mumbai"];
+city.push("Bangalore");
+console.log(city);
 
-    // #4 JavaScript Array shift()          //  The shift() method removes the first element from an array and returns that element.
+// // Using push() method
+var languagesProgramming = ["javascript", "python", "java", "c++", "c"];
+languagesProgramming.push("cobol");
+console.log(languagesProgramming);
 
-    var programmingLanguges = ["javascript", "python", "java", "c++", "c"];
+// #4 JavaScript Array shift()          //  The shift() method removes the first element from an array and returns that element.
 
-    let removedFirst = programmingLanguges.shift();
-    console.log(removedFirst);
-    console.log(programmingLanguges);
+var programmingLanguges = ["javascript", "python", "java", "c++", "c"];
 
-    // #5 JavaScript Array unshift()       
+let removedFirst = programmingLanguges.shift();
+console.log(removedFirst);
+console.log(programmingLanguges);
 
-    // The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
-    var programmingLanguges2 = ["javascript", "python", "java", "c++", "c"];
+// #5 JavaScript Array unshift()       
 
-    let addedFirst = programmingLanguges2.unshift("R");
-    console.log(addedFirst);
-    console.log(programmingLanguges2);
-    
+// The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+var programmingLanguges2 = ["javascript", "python", "java", "c++", "c"];
+
+let addedFirst = programmingLanguges2.unshift("R");
+console.log(addedFirst);
+console.log(programmingLanguges2);
+
