@@ -65,7 +65,9 @@ console.log(programmingLanguges2);
 
 // To do 31 /3/2022 list
 
-// #5 JavaScript Array find()
+// #5 JavaScript Array find()  // The find() method returns the value of the first array element that satisfies the provided test function.
+      
+
 
 // #6 Javascript Array filter()
 // #7 JavaScript Array findIndex()
