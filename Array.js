@@ -71,7 +71,10 @@ console.log(programmingLanguges2);
    //  2: find() with Object elements
 
 
-// #6 Javascript Array filter()
+// #6 Javascript Array filter()     // The filter() method returns a new array with all elements that pass the test defined by the given function.
+
+
+
 // #7 JavaScript Array findIndex()
 // #8 Javascript Array forEach()
 // #9 Javascript Array isArray()
