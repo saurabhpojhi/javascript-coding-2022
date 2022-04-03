@@ -67,6 +67,8 @@ console.log(programmingLanguges2);
 
 // #5 JavaScript Array find()  // The find() method returns the value of the first array element that satisfies the provided test function.
       
+   // 1: Using find() method
+   
 
 
 // #6 Javascript Array filter()
