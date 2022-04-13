@@ -82,6 +82,9 @@ console.log(programmingLanguges2);
  
 
 
+
+
+
 // #8 Javascript Array forEach()
 // #9 Javascript Array isArray()
 // #10 JavaScript Array length()
