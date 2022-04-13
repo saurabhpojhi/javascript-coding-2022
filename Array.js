@@ -85,6 +85,8 @@ console.log(programmingLanguges2);
 // #8 Javascript Array forEach()
 // #9 Javascript Array isArray()
 // #10 JavaScript Array length()
+
+
 // #11 JavaScript Array map()
 // #12 Javascript Array reduce()
 // #13 JavaScript Array reverse()
