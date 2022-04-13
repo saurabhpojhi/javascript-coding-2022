@@ -79,19 +79,12 @@ console.log(programmingLanguges2);
 // #7 JavaScript Array findIndex()   //The JavaScript Array findIndex() method returns the index of the first array element that satisfies the provided test function or else returns -1.
 
 // 1: Using findIndex() method
- 
-
-
-
-
-
 // #8 Javascript Array forEach()
 // #9 Javascript Array isArray()
-// #10 JavaScript Array length()
-
-
+// #10 JavaScript Array length(
 // #11 JavaScript Array map()
 // #12 Javascript Array reduce()
 // #13 JavaScript Array reverse()
 // #14 JavaScript Array slice()
 // #15  Javascript Array toString()
+
