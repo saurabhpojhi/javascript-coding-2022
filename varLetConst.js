@@ -88,3 +88,18 @@ var pin = 841219;
  pin = 841213;
 
  //There is a tricky part with cost that you must be aware of. When an object is declared and assigned a value with const
+
+ /* What Happens When You Access a Variable Before Declaring it in JavaScript*/
+
+// With var in non-strict mode, the variable will have an undefined value.
+// This means that a variable has been declared but has no value assigned.
+// In strict mode, you will get a ReferenceError that the variable is not declared.
+
+// With let and const, if you try to access a variable before declaring, you will always get a ReferenceError.
+
+// var, let, and const behave. So, the rule goes:
+
+// Don't use var anymore.
+// Use let or const.
+// Use const more often. Use let when you need to reassign another value to a variable.
+// Don't try to access a variable without declaring it.
