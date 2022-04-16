@@ -71,3 +71,9 @@ f2();
 // let: The block scope level
 // const: The block scope level
 
+/*How to Reassign a New Value to a Variable in JavaScript*/
+
+//Once you've declared a variable with var or let, you can reassign a new value to the variable in your programming flow. 
+//It is possible if the variable is accessible to assign a value. 
+//But with const, you can't reassign a new value at all.
+
