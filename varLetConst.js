@@ -44,3 +44,6 @@ console.log(age);      // ReferenceError: age is not defined
 //The variable declared with var inside a function is not accessible outside of it. The keyword var has function-scope.
 
 /*How to Use JavaScript Variables in Global Scope*/
+
+// Variables declared outside of any functions and blocks are global and are said to have Global Scope. This means you can access them from any part of the current JavaScript program.
+// You can use var, let, and const to declare global variables. 
