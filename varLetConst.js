@@ -42,3 +42,5 @@ console.log(pincode);     // ReferenceError: pincode is not defined
 console.log(age);      // ReferenceError: age is not defined
 // none of the variables are accessible outside of the function, not even age which is declared using var. So, the conclusion is,
 //The variable declared with var inside a function is not accessible outside of it. The keyword var has function-scope.
+
+/*How to Use JavaScript Variables in Global Scope*/
