@@ -63,3 +63,11 @@ f2();
    console.log(first_name1);  // saurabh
     console.log(mobile);     // 7277478119
     console.log(age);  // 27
+
+    // As you see, the variables are accessible everywhere.
+// to restrict the scope of a variable using the var, let, and const keywords,
+
+// var: The functional scope level
+// let: The block scope level
+// const: The block scope level
+
