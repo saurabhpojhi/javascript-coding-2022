@@ -17,3 +17,13 @@ const programming1 = new Array['java', 'python','c','c++'];
 
 //There are other methods like Array.of() and Array.from(), and the spread operator( ...) helps you create arrays, too. 
 
+/* How to Get Elements from an Array in JS */
+//You can access and retrieve elements from an array using its index. 
+//You need to use the square bracket syntax to access array elements.
+
+// const element = array[index];
+const programming2 = new Array['java', 'python','c','c++'];
+const len = programming2.length;
+programming2[len -1];
+programming2[len, 2];
+
