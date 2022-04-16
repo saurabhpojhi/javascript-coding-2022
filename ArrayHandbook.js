@@ -6,3 +6,14 @@
 // example of an array with four elements: type Number, Boolean, String, and Object.
 const mixedTypeArray=[100, true, 'github', {}] ;
 
+/* How to Create an Array in JavaScript */
+
+// You can create an array in multiple ways in JavaScript.
+// The most straightforward way is by assigning an array value to a variable.
+const programming =['java', 'python','c','c++'];
+
+// You can also use the Array constructor to create an array.
+const programming1 = new Array['java', 'python','c','c++'];
+
+//There are other methods like Array.of() and Array.from(), and the spread operator( ...) helps you create arrays, too. 
+
