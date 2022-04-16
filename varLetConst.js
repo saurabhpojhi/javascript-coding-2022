@@ -77,3 +77,14 @@ f2();
 //It is possible if the variable is accessible to assign a value. 
 //But with const, you can't reassign a new value at all.
 
+// Declare variables with initial values
+let first_name2 ="saurabh";
+const mobileNo= 7277478111;    //TypeError: Assignment to constant variable.
+var pin = 841219;
+
+// Reassign values 
+ first_name2 ="kumar";
+ mobileNo= 727747891;   
+ pin = 841213;
+
+ //There is a tricky part with cost that you must be aware of. When an object is declared and assigned a value with const
