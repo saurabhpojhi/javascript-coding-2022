@@ -31,6 +31,7 @@ console.log(age);      // 26
 // Do not use the var keyword inside a block (block scope). Always use let and const instead.
 
 /*How to Use JavaScript Variables in Functional Scope*/
+
 function f1(){
     let first_name ="saurabh";
     const pincode =841219;
