@@ -13,7 +13,7 @@ const mixedTypeArray=[100, true, 'github', {}] ;
 const programming =['java', 'python','c','c++'];
 
 // You can also use the Array constructor to create an array.
-const programming1 = new Array['java', 'python','c','c++'];
+const programming1 = new Array('java', 'python','c','c++');
 
 //There are other methods like Array.of() and Array.from(), and the spread operator( ...) helps you create arrays, too. 
 
@@ -22,8 +22,20 @@ const programming1 = new Array['java', 'python','c','c++'];
 //You need to use the square bracket syntax to access array elements.
 
 // const element = array[index];
-const programming2 = new Array['java', 'python','c','c++'];
+const programming2 =['java', 'python','c','c++'];
 const len = programming2.length;
 programming2[len -1];
 programming2[len, 2];
 
+// loop through the array using a regular for or forEach loop, or any other loop.
+const programming3 =['java', 'python','c','c++'];
+
+for (let i=0; i<programming3.length; i++){
+    console.log(`Elements at index ${i} is ${programming3[i]}`);
+}
+// Elements at index 0 is java      // output
+// Elements at index 1 is python
+// Elements at index 2 is c
+// Elements at index 3 is c++
+
+/* How to Add Elements to an Array in JS */
