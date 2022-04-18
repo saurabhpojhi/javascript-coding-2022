@@ -39,3 +39,6 @@ for (let i=0; i<programming3.length; i++){
 // Elements at index 3 is c++
 
 /* How to Add Elements to an Array in JS */
+
+// Use the push() method to insert an element into an array. 
+//The push() method adds an element at the end of the array.
