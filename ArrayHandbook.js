@@ -46,3 +46,9 @@ for (let i=0; i<programming3.length; i++){
 const programming4 =['java', 'python','c','c++'];
 programming4.push('R');
 console.log(programming4);  // [ 'java', 'python', 'c', 'c++', 'R' ]
+
+//add an element to the beginning of the array, you'll need to use the unshift() method.
+const programming5 =['java', 'python','c','c++'];
+programming5.unshift('R');
+console.log(programming5);    // [ 'R', 'java', 'python', 'c', 'c++' ]
+
