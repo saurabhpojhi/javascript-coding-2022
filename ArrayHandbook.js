@@ -42,3 +42,7 @@ for (let i=0; i<programming3.length; i++){
 
 // Use the push() method to insert an element into an array. 
 //The push() method adds an element at the end of the array.
+
+const programming4 =['java', 'python','c','c++'];
+programming4.push('R');
+console.log(programming4);  // [ 'java', 'python', 'c', 'c++', 'R' ]
