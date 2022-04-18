@@ -52,3 +52,15 @@ const programming5 =['java', 'python','c','c++'];
 programming5.unshift('R');
 console.log(programming5);    // [ 'R', 'java', 'python', 'c', 'c++' ]
 
+/* How to Remove Elements from an Array in JS*/
+
+// easiest way to remove a single element from an array is using the pop() method.
+// the pop() method, it removes an element from the end of the array
+const programming6 =['java', 'python','c','c++'];
+programming6.pop();
+console.log(programming6);  // [ 'java', 'python', 'c' ]
+
+// Use the shift() method to remove an element from the beginning of an array.
+const programming7 =['java', 'python','c','c++'];
+programming7.shift();
+console.log(programming7);  // [ 'python', 'c', 'c++' ]
