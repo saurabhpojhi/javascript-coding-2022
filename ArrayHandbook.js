@@ -64,3 +64,14 @@ console.log(programming6);  // [ 'java', 'python', 'c' ]
 const programming7 =['java', 'python','c','c++'];
 programming7.shift();
 console.log(programming7);  // [ 'python', 'c', 'c++' ]
+
+/* How to Copy and Clone an Array in JS */
+
+// an array to a new array using the slice() method.
+//  slice() method doesn't change the original array. 
+const programming8 =['java', 'python','c','c++','javascript'];
+const programming8Copy = programming8.slice();
+
+console.log(programming8Copy);  // [ 'java', 'python', 'c', 'c++', 'javascript' ]
+
+
