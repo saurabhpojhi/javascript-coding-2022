@@ -74,4 +74,10 @@ const programming8Copy = programming8.slice();
 
 console.log(programming8Copy);  // [ 'java', 'python', 'c', 'c++', 'javascript' ]
 
+/* How to Determine if a Value is an Array in JS*/
 
+// if a value is an array using the Array.isArray(value) method. 
+
+//const programming9 =['java', 'python','c','c++','javascript'];
+Array.isArray(['java', 'python','c','c++','javascript']);
+Array.isArray([]);
