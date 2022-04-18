@@ -81,3 +81,10 @@ console.log(programming8Copy);  // [ 'java', 'python', 'c', 'c++', 'javascript' 
 //const programming9 =['java', 'python','c','c++','javascript'];
 Array.isArray(['java', 'python','c','c++','javascript']);
 Array.isArray([]);
+
+/* Array Destructuring in JavaScript */
+let [language,database, codingplateform] =['python','SQL','LeetCode'];
+
+console.log(language,database, codingplateform);    //python SQL LeetCode
+
+
