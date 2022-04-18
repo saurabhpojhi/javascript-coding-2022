@@ -97,3 +97,4 @@ console.log(language,database, codingplateform);    //python SQL LeetCode
 // Array.isArray() – Determine if a value is an array.
 // length – Determine the size of an array.
 
+/*How to Create, Remove, Update, and Access Arrays in JavaScript*/
