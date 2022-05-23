@@ -71,9 +71,15 @@ colors.forEach(color =>{
 
 // method 2 filter method 
 
-let colors1 = ["red","blue","green","orange","purple","blue","red"]
+let colors1 = ["red","blue","green","orange","purple","blue","red"];
 
 let unique = colors1.filter((color1,index)=>{
     return colors1.indexOf(color1) === index;
 });
 console.log(unique);
+
+// method 2 set method
+let colors2 = ["red","blue","green","orange","purple","blue","red"];
+
+let uniqueColor = [...new Set(colors2)];
+console.log(uniqueColor);
