@@ -55,9 +55,25 @@ let obj = [
 ]
 
  console.log(obj.find(x=>x.name == 'saurabh')) ;  //{ id: 1, name: 'saurabh', age: 26 }
+// 4. Removing dublicates from Array
 
+let colors = ["red","blue","green","orange","purple","blue","red"]
 
+// method 1 using for loop
 
+let result =[];
+colors.forEach(color =>{
+    if(result.indexOf(color)<0){
+      result.push(color);
+    }
+});
+    console.log(result)
 
+// method 2 filter method 
 
-  
+let colors1 = ["red","blue","green","orange","purple","blue","red"]
+
+let unique = colors1.filter((color1,index)=>{
+    return colors1.indexOf(color1) === index;
+});
+console.log(unique);
