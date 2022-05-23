@@ -44,3 +44,20 @@ let arrList1 = Object.keys(objList2).map(key =>{
 });
 
 console.log(arrList1);  // [ [ 'a', 1 ], [ 'b', 2 ], [ 'c', 3 ], [ 'd', 4 ], [ 'e', 5 ] ]
+
+
+// 3. Retrieving item from collection of objects
+
+let obj = [
+    {'id':1,'name':"saurabh",'age':26},
+    {'id':2,'name':"saurabh kr",'age':25},
+    {'id':3,'name':"saurabh kumar",'age':24}
+]
+
+ console.log(obj.find(x=>x.name == 'saurabh')) ;  //{ id: 1, name: 'saurabh', age: 26 }
+
+
+
+
+
+  
