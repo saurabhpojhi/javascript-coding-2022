@@ -12,10 +12,10 @@
 //  var name = "saurabh";
 // console.log(name);
 
-var name;
-console.log(name); //undefined
-name ="saurabh";
-console.log(name);  //Saurabh
+// var name;
+// console.log(name); //undefined
+// name ="saurabh";
+// console.log(name);  //Saurabh
 
 //   Function Hoisting  //
 
@@ -26,9 +26,9 @@ console.log(name);  //Saurabh
 //     console.log('foo');
 // }
 
-foo();
-var foo=function(){  //TypeError: foo is not a function
+// foo();
+// var foo=function(){  //TypeError: foo is not a function
 
-}
+// }
 
 // similor for constant
