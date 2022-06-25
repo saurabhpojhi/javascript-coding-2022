@@ -27,7 +27,7 @@
 // console.log(cities);
 // console.log(removedCities);
 
-// // // Using pop() method
+ // Using pop() method
 
 // var languages = ["javascript", "python", "java", "c++", "c"];
 
@@ -41,7 +41,8 @@
 // city.push("Bangalore");
 // console.log(city);
 
-// // // // Using push() method
+ // Using push() method
+
 // var languagesProgramming = ["javascript", "python", "java", "c++", "c"];
 // languagesProgramming.push("cobol");
 // console.log(languagesProgramming);
@@ -63,7 +64,7 @@
 // console.log(addedFirst);
 // console.log(programmingLanguges2);
 
-// // To do 31 /3/2022 list
+// To do 31 /3/2022 list
 
 // #5 JavaScript Array find()  // The find() method returns the value of the first array element that satisfies the provided test function.
       
